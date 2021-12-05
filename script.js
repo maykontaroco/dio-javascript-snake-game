@@ -20,7 +20,7 @@ function createBackground() {
 function createSnake() {
     for(i=0; i < snake.length; i++){
         context.fillStyle = "green";
-        context.fillRect(snake[i].x - box, snake[i].y, box, box);
+        context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 }
 
